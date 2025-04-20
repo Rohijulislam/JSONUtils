@@ -26,7 +26,7 @@ A lightweight and developer-friendly Swift utility for encoding, decoding, and c
 Add this to your `Package.swift` dependencies:
 
 ```swift
-.package(url: "https://github.com/your-username/JSONUtils.git", from: "1.0.0")
+.package(url: "https://github.com/Rohijulislam/JSONUtils.git", from: "main")
 ```
 
 
