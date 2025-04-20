@@ -16,7 +16,10 @@ let package = Package(
         .target(
             name: "JSONUtils",
             dependencies: [],
-            path: "Sources"
+            path: "Sources",
+            swiftSettings: [
+                .define("SWIFT_PACKAGE")
+            ]
         ),
     ]
 )
