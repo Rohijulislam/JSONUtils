@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "JSONUtils",
     platforms: [
-        .iOS(.v13), .macOS(.v10_15), .watchOS(.v7)  
+        .iOS(.v12), .macOS(.v10_15), .watchOS(.v7)  
     ],
     products: [
         .library(
