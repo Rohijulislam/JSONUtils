@@ -17,6 +17,7 @@ let package = Package(
             name: "JSONUtils",
             dependencies: [],
             path: "Sources",
+            publicHeadersPath: "JSONUtils/inlcude",
             swiftSettings: [
                 .define("SWIFT_PACKAGE")
             ]

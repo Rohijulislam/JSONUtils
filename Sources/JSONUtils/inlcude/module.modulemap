@@ -1,0 +1,11 @@
+//
+//  module.modulemap
+//  JSONUtils
+//
+//  Created by ROHEJUL ISLAM on 20/4/25.
+//
+
+framework module JSONUtils {
+    export *
+    module * { export *}
+}
